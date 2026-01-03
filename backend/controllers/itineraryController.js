@@ -1,4 +1,5 @@
-import { db } from "../db.js"; // <-- use import and .js extension
+import db from "../db.js";
+// <-- use import and .js extension
 
 export const addCityToTrip = (req, res) => {
   const { city_id, start_date, end_date, position } = req.body;
